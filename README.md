@@ -38,12 +38,12 @@ v0.1.0
 ```
 
 | Parameter      | Type     | Description                                         |
-| :------------- | :------- | :-------------------------------------------------- | ------------------- |
-| `tz`           | `string` | **Optional**. "<timezone>" default: "Europe/Berlin" |
-| `format`       | `string` | **Optional**. "<output-format>" default: "de-DE"    |
-| `fulldatetime` | `string` | **Optional**. "<yes                                 | no>" default: "yes" |
-| `justdate`     | `string` | **Optional**. "<yes                                 | no>" default: "no"  |
-| `justtime`     | `string` | **Optional**. "<yes                                 | no>" default: "no"  |
+| :------------- | :------- | :-------------------------------------------------- |
+| `tz`           | `string` | **Optional**. "timezone" default: "Europe/Berlin" |
+| `format`       | `string` | **Optional**. "output-format" default: "de-DE"    |
+| `fulldatetime` | `string` | **Optional**. "yes" "no" default: "yes"         |
+| `justdate`     | `string` | **Optional**. "yes" "no" default: "no"          |
+| `justtime`     | `string` | **Optional**. "yes" "no" default: "no"          |
 
 ## Installation
 
