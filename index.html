@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="ZHENG Robert" />
+
+    <title>Web Component</title>
+
+    <meta name="description" content="Web Component for HTML footer" />
+    <meta name="version" content="v0.1.0" />
+    <meta name="author" content="ZHENG Robert" />
+    <meta name="date" content="2016-01-02T01:30:00+01:00" />
+
+    <link rel="alternate icon" href="/assets/favicon.ico" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+
+    <link href="../assets/css/index.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body id="body">
+    <main>
+      <h1>Web Component &raquo; rz-dt &laquo;</h1>
+      <article>
+        <h2>A Web Component for HTML date-/time- format</h2>
+        <p class="brief">defined output of timezone, format and datetime</p>
+        <section>
+          <h3>default</h3>
+          <p>
+            <rz-dt></rz-dt>
+            <br />
+            <code>
+              &lsaquo;rz-dt tz="Europe/Berlin" format="de-DE"
+              fulldatetime="yes"&rsaquo;&lsaquo;/rz-dt&rsaquo;
+            </code>
+          </p>
+        </section>
+
+        <section>
+          <h3>just date</h3>
+          <p>
+            <rz-dt justdate="yes"></rz-dt>
+            <br />
+            <code>
+              &lsaquo;rz-dt justdate="yes"&rsaquo;&lsaquo;/rz-dt&rsaquo;
+            </code>
+          </p>
+        </section>
+        <section>
+          <h3>just time</h3>
+          <p>
+            <rz-dt justtime="yes"></rz-dt>
+            <br />
+            <code>
+              &lsaquo;rz-dt justtime="yes"&rsaquo;&lsaquo;/rz-dt&rsaquo;
+            </code>
+          </p>
+        </section>
+        <section>
+          <h3>Timezone Asia/Shanghai</h3>
+          <p>
+            <rz-dt tz="Asia/Shanghai"></rz-dt>
+            <br />
+            <code>
+              &lsaquo;rz-dt tz="Asia/Shanghai"&rsaquo;&lsaquo;/rz-dt&rsaquo;
+            </code>
+          </p>
+        </section>
+        <section>
+          <h3>format en-GB</h3>
+          <p>
+            <rz-dt tz="Asia/Shanghai" format="en-GB"></rz-dt>
+            <br />
+            <code>
+              &lsaquo;rz-dt tz="Asia/Shanghai"
+              format="en-GB"&rsaquo;&lsaquo;/rz-dt&rsaquo;
+            </code>
+          </p>
+        </section>
+      </article>
+    </main>
+    <script src="./assets/js/rz-dt.js"></script>
+  </body>
+</html>
